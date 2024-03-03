@@ -37,7 +37,7 @@ The model is builded with the training and testing data using multiple regressor
 
 Testing the model for the rating prediction. And then the model is saved with pickle file and then the model is loaded from the pickle file to check for the output.
 
-## Conclution
+## Conclution:
 
 The created model is used to predict the ratings of the future courses, The ratings would be more or less Assumptions only since the ratings can be affected by more outside features and with the each individual review and ratings. Even though the Maching learning Model will predict the rating as per the past data accurate as per the dataset.
 
