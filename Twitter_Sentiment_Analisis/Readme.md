@@ -26,4 +26,14 @@ In today's digital age, social media platforms like Twitter have become a crucia
 
 ## Model Creation Using LSTM:
 
-The given Dataset has no null values yet the dataset is too big it would take too long and the dataset may underfit or lowerfit the data, so we are selecting a part of the dataset to prepare the model
+The given Dataset has no null values yet the dataset is too big it would take too long and the dataset may underfit or lowerfit the data, so we are selecting a part of the dataset to prepare the model to reduce the processing time. 
+
+The selected dataset will be stemmed or lemmatised, Stemming and lemmatizing was same kind process, here I used lemmatizing, This is the process of finding the root of the word. It actually removes the plural forms and gramatical forms like past, future and past participle words to the root words. 
+
+Then the data is tokenised, tokenization is a process of splitting the sentences ito word and put it in a list. Then the tokens will be padded into binaries.
+
+Here I used Sequential model from LSTM for the polarity prediction. Then the model is saved into a pickle file for the future use.
+
+## Conclution:
+
+This model created to check the sentiment of the tweet. The model can be run on any local machine by using the jupyter notebook. I also uploaded the jupyter file for the public use also the pickle file use it to check the polarity.
